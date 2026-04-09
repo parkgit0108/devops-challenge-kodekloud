@@ -137,11 +137,11 @@
 - Test `curl` from the jump host (expect `200`):
     
     ```bash
-    curl -k -I https://172.16.238.10
+    curl -k -I https://<app-server>
     ```
     
 - Confirm HTTP redirects to HTTPS (expect `301` / `302`):
     
     ```bash
-    curl -I http://172.16.238.10
+    curl -I http://<app-server>
     ```

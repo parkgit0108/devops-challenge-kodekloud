@@ -76,4 +76,4 @@ GRANT ALL PRIVILEGES ON DATABASE kodekloud_db2 TO kodekloud_gem;
 \l
 ```
 
-![image.png](Install%20and%20Configure%20PostgreSQL/image.png)
+<img width="1235" height="1084" alt="image" src="https://github.com/user-attachments/assets/63702d9c-1b2f-4e3a-aeb6-41c9a3913ef3" />

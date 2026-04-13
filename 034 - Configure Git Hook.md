@@ -4,7 +4,8 @@ cd /opt/media.git/hooks
 cp post-update.sample post-update
 vi post-update
 #replace the content with below
-------------------------
+```
+```sql
 #!/usr/bin/sh
 
 # Arguments to post-update
@@ -13,7 +14,8 @@ GIT_DIR=$(pwd)
 
         echo "Creating tag release-$DATE"
         git --git-dir="$GIT_DIR" tag "release-$DATE" master
-------------------------
+```
+```sql
 #make it executable
 chmod +x /opt/media.git/hooks/post-update
 cd /usr/src/kodekloudrepos/media

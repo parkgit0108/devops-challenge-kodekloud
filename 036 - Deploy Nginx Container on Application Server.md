@@ -8,5 +8,7 @@ docker ps
 
 NOTE:
 -d → runs the container in detached (background) mode
+
 --name nginx_1 → assigns the required container name
+
 nginx:alpine → uses the lightweight Alpine-based Nginx image

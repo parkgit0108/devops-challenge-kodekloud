@@ -7,6 +7,7 @@ docker ps
 ```
 
 NOTE:
+
 -d → runs the container in detached (background) mode
 
 --name nginx_1 → assigns the required container name

@@ -1,4 +1,3 @@
-```sql
 Jenkins Plugin Installation Steps
 Log in to the Jenkins UI using your credentials.
 Go to Manage Jenkins from the left-hand menu.
@@ -15,4 +14,4 @@ Click on Install to start plugin installation.
 Wait for the installation to complete.
 At the end, select the option to restart Jenkins to apply changes.
 Check in installed plugins and see if all there.
-```
+

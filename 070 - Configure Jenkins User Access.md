@@ -43,7 +43,9 @@ Set up a Jenkins user and restrict access so the user can **only view** a single
 You must grant the minimum global permissions required for users to log in and navigate. Typically this includes Overall → Read (and sometimes Overall → View depending on Jenkins version/plugins).
 ```
 
-You must grant the minimum global permissions required for users to log in and navigate. Typically this includes **Overall → Read** (and sometimes **Overall → View** depending on Jenkins version/plugins).
+You must grant the minimum global permissions required for users to log in and navigate.
+Typically this includes **Overall → Read** 
+and sometimes **Overall → View** depending on Jenkins version/plugins.
 
 </aside>
 

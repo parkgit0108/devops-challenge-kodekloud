@@ -1,7 +1,3 @@
-# Untitled
-
-<aside>
-<img src="https://www.notion.soi" alt="https://www.notion.soi" width="40px" />
 
 **Goal:** Add 3 Jenkins SSH build agents (stapp01/stapp02/stapp03) and ensure Java 17 is installed on each app server.
 

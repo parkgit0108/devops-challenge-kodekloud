@@ -50,13 +50,15 @@ exit
 
 1. Go to **Manage Jenkins → Credentials → System → Global credentials → Add Credentials**
 2. Fill in:
-
-`Kind:        Username with password
+```sql
+Kind:        Username with password
 Scope:       Global
 Username:    sarah
 Password:    Sarah_pass123
 ID:          stapp01
-Description: Sarah on stapp01`
+Description: Sarah on stapp01
+
+```
 
 1. Click **Save**
 
@@ -66,13 +68,15 @@ Description: Sarah on stapp01`
 
 1. Go to **Manage Jenkins → Nodes → New Node**
 2. Fill in:
-
-`Node name:   App Server 1
-Type:        Permanent Agent`
+```sql
+Node name:   App Server 1
+Type:        Permanent Agent
+```
 
 1. Click **Create**, then configure:
 
-`Description:            App Server 1
+```sql
+Description:            App Server 1
 Executors:              2
 Remote root directory:  /home/sarah/jenkins_agent
 Labels:                 stapp01
@@ -80,7 +84,8 @@ Usage:                  Use this node as much as possible
 Launch method:          Launch agents via SSH
 Host:                   stapp01
 Credentials:            sarah (stapp01)
-Host Key Verification:  Non verifying Verification Strategy`
+Host Key Verification:  Non verifying Verification Strategy
+````
 
 1. Click **Save**
 
@@ -102,6 +107,7 @@ Host Key Verification:  Non verifying Verification Strategy`
 2. Fill in:
 
 `Name:  deploy-job
+
 Type:  Pipeline  ← (NOT Multibranch Pipeline)`
 
 1. Click **OK**
@@ -143,11 +149,13 @@ pipeline {
 2. Click on the build number → **Console Output**
 3. You should see:
 
-`Cloning/pulling from master...
+```sql
+Cloning/pulling from master...
 Deploy complete
 curl http://stlb01:8091
 Welcome to xFusionCorp Industries
-Finished: SUCCESS`
+Finished: SUCCESS
+```
 
 ---
 

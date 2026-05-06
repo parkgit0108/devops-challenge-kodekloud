@@ -8,7 +8,8 @@ stapp03 ansible_user=banner ansible_ssh_password=BigGr33n
 ```
 ```sql
 vi playbook.yml
-
+```
+```sql
 ---
 - name: Deploy index.html to App Server 3
   hosts: app_servers
